@@ -36,7 +36,7 @@ export default function DesktopSidebar({ currentPath }: DesktopSidebarProps) {
 
         {/* 새로 추가된 리포트 보기 버튼 */}
         <ReportButton onClick={() => setIsReportModalOpen(true)}>
-          📊 스마트 리포트 생성하기
+          📊 스마트 리포트 보기
         </ReportButton>
 
         <StatusCard>
